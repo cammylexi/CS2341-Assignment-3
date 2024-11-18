@@ -1,6 +1,6 @@
 # CS2341-Assignment-3
 //Camryn McPhaul- 48876677
-### Performance and Scalabiltly Considerations 
+### Performance and Scalability Considerations 
 
 For this assignment, I will be implementing the Red-Black Tree. The Red-Black Tree is a self-balancing binary search tree with a time complexity of 2 log n. The insertion process begins with the first product, which becomes the tree's root. As more products are inserted, the tree compares their IDs to determine their correct position.
 During the insertion, the tree evaluates whether the new product’s ID is greater or smaller than the current node's ID. This balancing mechanism of the tree automatically adjusts its height by using rotations and recoloring during the insertion to ensure that the tree remains balanced. 
